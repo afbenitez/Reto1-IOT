@@ -1,9 +1,5 @@
 # Reto1-IOT
-## Pareja 2
-
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+## Equipo de Trabajo 06 Pareja 2
 
 ## Objetivos
 
