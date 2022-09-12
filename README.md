@@ -5,6 +5,7 @@
 
 - Comprobar los tiempos de ejecución en filtro de consulta tabla data por un rango de fechas.
 - Implementar el correspondiente operación del servicio que lleva acabo esto.
+- Llevar acabo las correspondientes pruebas de carga.
 
 Integrantes
 
