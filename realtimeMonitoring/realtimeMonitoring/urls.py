@@ -1,5 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include
+
 # from . import mqtt
 from . import utils
 
@@ -26,6 +27,6 @@ from . import utils
 # mqtt.client.loop_start()
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('realtimeGraph.urls')),
+    path("admin/", admin.site.urls),
+    path("", include("realtimeGraph.urls")),
 ]
