@@ -496,22 +496,16 @@ La respuesta tiene esta estructura:
 {
     "data": [
         {
-            "name": "ciudad, estado, país",
-            "lat": float,
-            "lng": float,
-            "population": int,
-            "min": float,
-            "max": float,
-            "avg": float
+            "value": "float",
+            "time": datetime,
+            "measurement_id": int,
+            "station_id": int
         },
-        {name, lat, lng, pop, min, max, avg},
-        {name, lat, lng, pop, min, max, avg},
         ...
     ],
-    "start": startTime,
-    "end": endTime
 }
 filtros de busqueda /rema/events/DateUtc?from=YYYY-MM-DDTHH:MM:SSZ
+
 """    
 def get_event(request, **kwargs):
     data_result = {}
